@@ -1,0 +1,2 @@
+2) As you can see this code is much faster than selection sort. What do you think is the reason this is not very widely used?
+ it can be used only for integers with smaller values and cannot be used for complex functions.
