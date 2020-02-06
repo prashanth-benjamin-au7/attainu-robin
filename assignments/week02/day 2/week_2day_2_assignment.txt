@@ -1,0 +1,7 @@
+1.I python, float and integer seems to be same in terms of bytes, but float stores values in floating points.
+  so integer cant store values in that manner.
+  float goes up to the higher oder of the value but it wont reach that value.
+  i.e eg :1.999999 instead of 2
+2.1GB= 8589934592 bits
+  1MB= 8388608 bits
+
