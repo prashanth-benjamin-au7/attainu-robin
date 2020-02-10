@@ -1,9 +1,26 @@
-if __name__ == '__main__':
-    n = int(raw_input())
-    arr = map(int, raw_input().split())
-    m1 = max(arr)
-    m2 = -9999999999
-    for i in range(n):
-        if arr[i] != m1 and arr[i] > m2:
-            m2 = arr[i]
-    print m2
+def dictionairy():  
+
+ key_marks ={}     
+  
+
+ key_value[2] = 56       
+ key_marks[1] = 2 
+ key_marks[5] = 12 
+ key_marks[4] = 24
+ key_marks[6] = 18      
+ key_marks[3] = 323 
+  
+ print ("\n") 
+ print ("Keys are") 
+   
+ 
+ for i in sorted (key_marks.keys()) :  
+     print(i, end = " ") 
+  
+def main(): 
+   
+    dictionairy()              
+      
+
+if __name__=="__main__":       
+    main() 
