@@ -1,0 +1,15 @@
+1) Is merge sort stable, inplace and find its time complexity?
+
+#Merge sort is a stable algorithmComparison based stable sorts such as
+Merge Sort and Insertion Sort, maintain stability by ensuring that-
+Element A[j] comes before A[i] if and only if A[j] < A[i], here i, j are
+indices and i < j.Since i<j, the relative order is preserved
+if A[i]\equiv A[j] i.e. A[i] comes before A[j].
+#In-place means it does not occupy extra memory for merge operation
+as in standard case.
+#Merge Sort is a recursive algorithm and time complexity can be
+expressed as following recurrence relation.
+T(n) = 2T(n/2) + O(n)
+Best Case Time Complexity [Big-omega]: O(n*log n)
+Average Time Complexity [Big-theta]: O(n*log n)
+Worst Case Time Complexity [ Big-O ]: O(n*log n)
