@@ -1,0 +1,13 @@
+3) Explain merge sort with [70,50,30,10,20,40,60] in 100 words?
+
+
+Merge sort is a divide and conquer algorithm.
+Here the array is divided into two subarrays.i.e [70,50,30,10] and [20,40,60]
+And the first subarray [70,50,30,10] is again split into two [70,50]&[30,10]
+and is compared for the lowest value and is sorted [50,70][10,30]
+and the the subarray is joind and is recurcively sorted.[10,30,50,70]
+This steps is carried for the second subarray[20,40,60]
+and is sorted by spliting the array [20,40]&[60]
+and is merged back [20,40,60]. Then the two sorted subarray is joined
+([10,30,50,70]&[20,40,60]). These two array get merged and sorted.
+And we get the array [10,20,30,40,50,60,70].
